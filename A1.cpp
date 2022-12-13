@@ -19,20 +19,8 @@ int solve(vector<int> A)
 
 }
 
-TEST_CASE("Dulustan's tests"){
-    CHECK(solve({100000}) == 0);
-    CHECK(solve({1,4,7,100}) == 3);
-    CHECK(solve({-100,99,88,55}) == 1);
-    CHECK(solve({1,-2,3,-4,5,-6,7,-7,8,-8,9,-9}) == 5);
-}
 
-//минимум 4 теста
-TEST_CASE("Student's tests"){
-    CHECK(solve({0}) == 0);
-    CHECK(solve({0,0,0,0}) == 0);
-    CHECK(solve({100,99,88,55}) == 0);
-    CHECK(solve({20,21,19,29,30}) == 3);
-}
+
 
 // main отвечает за ввод-вывод
 // int main()
